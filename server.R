@@ -12,7 +12,6 @@ printqqsubgraph <- function(stud, trait, sub){
 }
 printmansubgraph <- function(stud, trait, sub){
   if(sub == "") return(paste0("./graphs/",stud,"/",prefix[[stud]],"man_",trait,"_tall.png"))
-  if(stud == "ARIC") return(paste0("./graphs/",stud,"/",prefix[[stud]],"man_",trait,"_",sub,"tall.png"))
   paste0("./graphs/",stud,"/",prefix[[stud]],"man_",trait,"_",sub,"_tall.png")
 }
 

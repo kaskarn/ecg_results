@@ -4,7 +4,9 @@ shinyUI(fluidPage(
     tabPanel("By Study",
       htmlOutput("Studies")
     ),
-    tabPanel("aSPU"
+    tabPanel("aSPU",
+      tags$img(src="./graphs/aspu/qq_aspu.png"),
+      tags$img(src="./graphs/aspu/man_aspu_tall.png")
     )
   )
 ))

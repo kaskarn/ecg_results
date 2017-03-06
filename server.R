@@ -10,12 +10,12 @@ shinyServer(function(input, output) {
           if(length(substudies[[i]]) == 1){ 
             path <- paste0(dirpath,anno,"_",i,".man_",k,"_",sig,"knowns.png")
           }else path <- paste0(dirpath,anno,"_",j,".man_",k,"_",sig,"knowns.png")
-          tags$img(src = path, width = "100%")
+          tags$div(class = "header", tags$h3(traitslab[[k]]), tags$img(src = path, width = "100%"), tags$hr())
         })
         output[[paste("graphout",i,j,k,"qq",sep="_")]] <- renderUI({
           if(length(substudies[[i]]) == 1){ 
             path <- paste0(dirpath,i,".qq_",k,".png")
           }else path <- paste0(dirpath,j,".qq_",k,".png")
-          tags$img(src = path, width = "50%")
+          tags$div(class = "header", tags$h3(k), tags$img(src = path, width = "50%"))
         })
 })})})})

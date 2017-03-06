@@ -16,7 +16,7 @@ make_graphs <- function(studies, substudies, traits, type){
           tabPanel(ifelse(is.null(fixt[[i]]),j,fixt[[i]]),
             graphinputs(i,j,type),
             fluidRow(align="center", 
-                     lapply(traits, function (k) uiOutput(paste("graphout",i,j,k,type,sep="_"))
+                     lapply(traits, function (k) htmlOutput(paste("graphout",i,j,k,type,sep="_"))
   )))}))))})
 }
 shinyUI(fluidPage(

@@ -3,10 +3,10 @@ source("definitions.R")
 
 graphinputs <- function(stud, sub, type){
   if(type != "man") return(NULL)
-  inputPanel(radioButtons(paste("mantype",stud,sub,sep="_"), label = "Manhattan height",
-                          choices = list("tiny"=1, "medium"=2, "tall"=3),
-                          inline = TRUE, selected = 3),
-             checkboxInput(paste("knowns",stud,sub,sep="_"),"Show known loci",value = FALSE))
+  inputPanel(radioButtons(paste("anno",stud,sub,sep="_"), label = "Which trait should be used for annotations?",
+                          choices = annolist,
+                          inline = TRUE, selected = 1),
+             checkboxInput(paste("sugg",stud,sub,sep="_"),"Annotate suggestive results",value = FALSE))
 }
 make_graphs <- function(studies, substudies, traits, type){
   lapply(studies, function (i) {

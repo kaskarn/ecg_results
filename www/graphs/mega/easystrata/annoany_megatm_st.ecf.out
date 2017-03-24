@@ -1,0 +1,45 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|       EasyStrata     |   v15.3   |     02/November/2016    |
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|  (C) 2013 Thomas Winkler, GNU General Public License, v3   |
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|  For bug-report, please e-mail:                            |
+|  thomas.winkler@klinik.uni-regensburg.de                   |
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++
+Starting EasyStrata: 2017-03-24 15:32:38 
+Running script  annoany_megatm_st.ecf ...
+
++++++
+Getting list of input files ...
+Using:
+   +  /nas02/depts/epi/CVDGeneNas/antoine/ECG_GWAS_FULL/gwas/results/SOL_Share/res_all/st_fix.out 
+
++++++
+Default output path is 
+/nas02/depts/epi/CVDGeneNas/antoine/ECG_GWAS_FULL/graphs/mega/easystrata
+
++++++
+Performing validity check on 10 rows from each file :
+
+   +  annoany_mega -> OK
+ Passed validity check!
+
++++++
+Processing file: annoany_mega 
+   + Reading  /nas02/depts/epi/CVDGeneNas/antoine/ECG_GWAS_FULL/gwas/results/SOL_Share/res_all/st_fix.out ... 
+Read 0.0% of 24210802 rowsRead 0.6% of 24210802 rowsRead 0.9% of 24210802 rowsRead 1.4% of 24210802 rowsRead 1.9% of 24210802 rowsRead 2.5% of 24210802 rowsRead 3.2% of 24210802 rowsRead 4.1% of 24210802 rowsRead 5.0% of 24210802 rowsRead 5.1% of 24210802 rowsRead 6.4% of 24210802 rowsRead 7.6% of 24210802 rowsRead 7.8% of 24210802 rowsRead 8.8% of 24210802 rowsRead 9.7% of 24210802 rowsRead 10.9% of 24210802 rowsRead 11.8% of 24210802 rowsRead 13.1% of 24210802 rowsRead 14.3% of 24210802 rowsRead 14.4% of 24210802 rowsRead 15.6% of 24210802 rowsRead 16.9% of 24210802 rowsRead 17.5% of 24210802 rowsRead 17.6% of 24210802 rowsRead 18.8% of 24210802 rowsRead 20.1% of 24210802 rowsRead 21.2% of 24210802 rowsRead 22.5% of 24210802 rowsRead 23.7% of 24210802 rowsRead 24.9% of 24210802 rowsRead 25.7% of 24210802 rowsRead 26.9% of 24210802 rowsRead 28.2% of 24210802 rowsRead 29.4% of 24210802 rowsRead 30.6% of 24210802 rowsRead 31.1% of 24210802 rowsRead 32.2% of 24210802 rowsRead 33.3% of 24210802 rowsRead 34.4% of 24210802 rowsRead 35.0% of 24210802 rowsRead 36.2% of 24210802 rowsRead 37.4% of 24210802 rowsRead 37.5% of 24210802 rowsRead 38.7% of 24210802 rowsRead 39.9% of 24210802 rowsRead 41.1% of 24210802 rowsRead 42.3% of 24210802 rowsRead 43.5% of 24210802 rowsRead 44.7% of 24210802 rowsRead 45.3% of 24210802 rowsRead 46.5% of 24210802 rowsRead 47.7% of 24210802 rowsRead 48.9% of 24210802 rowsRead 50.1% of 24210802 rowsRead 51.3% of 24210802 rowsRead 52.4% of 24210802 rowsRead 53.6% of 24210802 rowsRead 54.6% of 24210802 rowsRead 55.8% of 24210802 rowsRead 57.0% of 24210802 rowsRead 58.1% of 24210802 rowsRead 59.3% of 24210802 rowsRead 60.4% of 24210802 rowsRead 61.6% of 24210802 rowsRead 62.7% of 24210802 rowsRead 63.9% of 24210802 rowsRead 65.1% of 24210802 rowsRead 65.8% of 24210802 rowsRead 67.0% of 24210802 rowsRead 68.1% of 24210802 rowsRead 69.2% of 24210802 rowsRead 69.5% of 24210802 rowsRead 70.8% of 24210802 rowsRead 72.0% of 24210802 rowsRead 73.2% of 24210802 rowsRead 74.5% of 24210802 rowsRead 75.7% of 24210802 rowsRead 76.9% of 24210802 rowsRead 78.1% of 24210802 rowsRead 79.2% of 24210802 rowsRead 80.4% of 24210802 rowsRead 81.6% of 24210802 rowsRead 82.8% of 24210802 rowsRead 84.0% of 24210802 rowsRead 85.2% of 24210802 rowsRead 86.4% of 24210802 rowsRead 87.6% of 24210802 rowsRead 88.8% of 24210802 rowsRead 90.0% of 24210802 rowsRead 91.2% of 24210802 rowsRead 92.4% of 24210802 rowsRead 93.6% of 24210802 rowsRead 94.8% of 24210802 rowsRead 95.3% of 24210802 rowsRead 96.5% of 24210802 rowsRead 97.7% of 24210802 rowsRead 98.9% of 24210802 rowsRead 24210802 rows and 18 (of 18) columns from 3.046 GB file in 00:04:06
+	** Data reading time: 4.13 Minutes
+	** Current memory allocated: 7129m 
+   + MHPLOT 
+      --colInChr CHROM 
+      --colInPos POS 
+      --colMHPlot PVALUE 
+      --fileAnnot /nas02/depts/epi/CVDGeneNas/antoine/ECG_GWAS_FULL/literature/ecgknown_any.txt 
+      --anumAddPvalLine 1e-6;5e-8 
+      --numAnnotPosLim 500000 
+      --numAnnotPvalLim 1e-6 
+      --strPlotName man_st_1e6ann 
+      --numPvalOffset 0.05 
+      --blnYAxisBreak 1

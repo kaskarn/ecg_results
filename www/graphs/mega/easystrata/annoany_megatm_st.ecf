@@ -1,0 +1,44 @@
+DEFINE	--strSeparator COMMA
+		--acolIn PVALUE;POS;CHROM
+		--pathOut /nas02/depts/epi/CVDGeneNas/antoine/ECG_GWAS_FULL/graphs/mega/easystrata
+
+EASYIN	--fileIn /nas02/depts/epi/CVDGeneNas/antoine/ECG_GWAS_FULL/gwas/results/SOL_Share/res_all/st_fix.out
+		--fileInShortName annoany_mega
+
+START EASYSTRATA	
+	
+MHPLOT	--colInChr CHROM
+		--colInPos POS
+		--colMHPlot PVALUE
+		--fileAnnot /nas02/depts/epi/CVDGeneNas/antoine/ECG_GWAS_FULL/literature/ecgknown_any.txt
+		--anumAddPvalLine 1e-6;5e-8
+		--numAnnotPosLim 500000
+		--numAnnotPvalLim 1e-6
+		--strPlotName man_st_1e6ann
+		--numPvalOffset 0.05
+		--blnYAxisBreak 1
+		
+MHPLOT	--colInChr CHROM
+		--colInPos POS
+		--colMHPlot PVALUE
+		--fileAnnot /nas02/depts/epi/CVDGeneNas/antoine/ECG_GWAS_FULL/literature/ecgknown_any.txt
+		--anumAddPvalLine 1e-6;5e-8
+		--numAnnotPosLim 500000
+		--numAnnotPvalLim 5e-8
+		--strPlotName man_st_5e8ann
+		--numPvalOffset 0.05
+		--blnYAxisBreak 1
+
+MHPLOT	--colInChr CHROM
+		--colInPos POS
+		--colMHPlot PVALUE
+		--fileAnnot /nas02/depts/epi/CVDGeneNas/antoine/ECG_GWAS_FULL/literature/ecgknown_any.txt
+		--anumAddPvalLine 1e-6;5e-8
+		--numAnnotPosLim 500000
+		--numAnnotPvalLim 5e-8
+		--numHeight 400
+		--strPlotName man_st_tiny_1e8ann
+		--numPvalOffset 0.05
+		--blnYAxisBreak 1
+		
+STOP EASYSTRATA

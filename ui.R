@@ -14,6 +14,12 @@ graphinputs_found <- function(){
                           inline = FALSE, selected = 1),
              checkboxInput("sugg_found","Annotate suggestive results",value = FALSE))
 }
+graphinputs_found_nost <- function(){
+  inputPanel(radioButtons("annofound_nost", label = "Which trait should be used for annotations?",
+                          choices = foundlist,
+                          inline = FALSE, selected = 1),
+             checkboxInput("sugg_found_nost","Annotate suggestive results",value = FALSE))
+}
 make_graphs <- function(studies, substudies, traits, type){
   lapply(studies, function (i) {
     do.call(tabPanel, 
@@ -35,17 +41,20 @@ shinyUI(fluidPage(
           tabPanel("QQ", 
             do.call(tabsetPanel, make_graphs(studies, substudies, traits, "qq")))
     ))),
-    tabPanel("aSPU",
+    tabPanel("aSPU, All",
       tabsetPanel(
-        tabPanel("Literature",
-          graphinputs("aspu", "", "man"),
-          htmlOutput("graphout_aspu_known")
-        ),
-        tabPanel("Metal",
-          graphinputs_found(),
-          htmlOutput("graphout_aspu_found")
-        ),
+        tabPanel("Literature", graphinputs("aspu", "", "man"),
+          htmlOutput("graphout_aspu_known")),
+        tabPanel("Metal", graphinputs_found(),
+          htmlOutput("graphout_aspu_found")),
         tabPanel("QQ",fluidRow(align = "center", tags$img(src = "./graphs/aspu/all/easystrata/aspu.qq_alltraits.png", width = "50%")))
-      )
-    )
+    )),
+    tabPanel("aSPU, no ST",
+        tabsetPanel(
+          tabPanel("Literature",graphinputs("aspu", "nost", "man"),
+            htmlOutput("graphout_aspu_known_nost")),
+          tabPanel("Metal",graphinputs_found_nost(),
+            htmlOutput("graphout_aspu_found_nost")),
+          tabPanel("QQ",fluidRow(align = "center", tags$img(src = "./graphs/aspu/nost/easystrata/aspu.qq_alltraits.png", width = "50%")))
+    ))
 )))

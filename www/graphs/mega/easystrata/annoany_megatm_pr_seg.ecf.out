@@ -1,0 +1,45 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|       EasyStrata     |   v15.3   |     02/November/2016    |
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|  (C) 2013 Thomas Winkler, GNU General Public License, v3   |
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|  For bug-report, please e-mail:                            |
+|  thomas.winkler@klinik.uni-regensburg.de                   |
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++
+Starting EasyStrata: 2017-03-24 15:32:11 
+Running script  annoany_megatm_pr_seg.ecf ...
+
++++++
+Getting list of input files ...
+Using:
+   +  /nas02/depts/epi/CVDGeneNas/antoine/ECG_GWAS_FULL/gwas/results/SOL_Share/res_all/pr_seg_fix.out 
+
++++++
+Default output path is 
+/nas02/depts/epi/CVDGeneNas/antoine/ECG_GWAS_FULL/graphs/mega/easystrata
+
++++++
+Performing validity check on 10 rows from each file :
+
+   +  annoany_mega -> OK
+ Passed validity check!
+
++++++
+Processing file: annoany_mega 
+   + Reading  /nas02/depts/epi/CVDGeneNas/antoine/ECG_GWAS_FULL/gwas/results/SOL_Share/res_all/pr_seg_fix.out ... 
+Read 0.0% of 24210802 rowsRead 0.6% of 24210802 rowsRead 0.9% of 24210802 rowsRead 1.4% of 24210802 rowsRead 1.9% of 24210802 rowsRead 2.5% of 24210802 rowsRead 3.2% of 24210802 rowsRead 4.0% of 24210802 rowsRead 4.8% of 24210802 rowsRead 5.1% of 24210802 rowsRead 6.2% of 24210802 rowsRead 6.4% of 24210802 rowsRead 7.5% of 24210802 rowsRead 7.8% of 24210802 rowsRead 8.8% of 24210802 rowsRead 9.7% of 24210802 rowsRead 10.9% of 24210802 rowsRead 11.8% of 24210802 rowsRead 12.9% of 24210802 rowsRead 14.0% of 24210802 rowsRead 14.4% of 24210802 rowsRead 15.5% of 24210802 rowsRead 16.6% of 24210802 rowsRead 17.5% of 24210802 rowsRead 17.6% of 24210802 rowsRead 18.7% of 24210802 rowsRead 19.9% of 24210802 rowsRead 21.0% of 24210802 rowsRead 21.2% of 24210802 rowsRead 22.4% of 24210802 rowsRead 23.5% of 24210802 rowsRead 24.6% of 24210802 rowsRead 25.7% of 24210802 rowsRead 26.8% of 24210802 rowsRead 27.8% of 24210802 rowsRead 28.8% of 24210802 rowsRead 29.8% of 24210802 rowsRead 30.8% of 24210802 rowsRead 31.1% of 24210802 rowsRead 32.1% of 24210802 rowsRead 33.1% of 24210802 rowsRead 34.1% of 24210802 rowsRead 35.0% of 24210802 rowsRead 36.1% of 24210802 rowsRead 37.3% of 24210802 rowsRead 37.5% of 24210802 rowsRead 38.7% of 24210802 rowsRead 39.8% of 24210802 rowsRead 40.9% of 24210802 rowsRead 42.0% of 24210802 rowsRead 43.1% of 24210802 rowsRead 44.2% of 24210802 rowsRead 45.3% of 24210802 rowsRead 46.3% of 24210802 rowsRead 47.5% of 24210802 rowsRead 48.6% of 24210802 rowsRead 49.7% of 24210802 rowsRead 50.8% of 24210802 rowsRead 51.9% of 24210802 rowsRead 53.0% of 24210802 rowsRead 54.0% of 24210802 rowsRead 54.6% of 24210802 rowsRead 55.7% of 24210802 rowsRead 56.8% of 24210802 rowsRead 57.9% of 24210802 rowsRead 58.9% of 24210802 rowsRead 60.0% of 24210802 rowsRead 61.1% of 24210802 rowsRead 62.2% of 24210802 rowsRead 63.2% of 24210802 rowsRead 64.3% of 24210802 rowsRead 65.3% of 24210802 rowsRead 65.8% of 24210802 rowsRead 66.9% of 24210802 rowsRead 67.9% of 24210802 rowsRead 69.0% of 24210802 rowsRead 69.5% of 24210802 rowsRead 70.6% of 24210802 rowsRead 71.8% of 24210802 rowsRead 72.9% of 24210802 rowsRead 74.1% of 24210802 rowsRead 75.2% of 24210802 rowsRead 76.3% of 24210802 rowsRead 77.4% of 24210802 rowsRead 78.6% of 24210802 rowsRead 79.2% of 24210802 rowsRead 80.3% of 24210802 rowsRead 81.5% of 24210802 rowsRead 82.6% of 24210802 rowsRead 83.7% of 24210802 rowsRead 84.8% of 24210802 rowsRead 85.9% of 24210802 rowsRead 86.9% of 24210802 rowsRead 88.0% of 24210802 rowsRead 89.0% of 24210802 rowsRead 90.0% of 24210802 rowsRead 91.1% of 24210802 rowsRead 92.1% of 24210802 rowsRead 93.1% of 24210802 rowsRead 94.1% of 24210802 rowsRead 95.2% of 24210802 rowsRead 95.3% of 24210802 rowsRead 96.3% of 24210802 rowsRead 97.4% of 24210802 rowsRead 98.3% of 24210802 rowsRead 99.4% of 24210802 rowsRead 24210802 rows and 18 (of 18) columns from 3.025 GB file in 00:05:09
+	** Data reading time: 5.43 Minutes
+	** Current memory allocated: 7129m 
+   + MHPLOT 
+      --colInChr CHROM 
+      --colInPos POS 
+      --colMHPlot PVALUE 
+      --fileAnnot /nas02/depts/epi/CVDGeneNas/antoine/ECG_GWAS_FULL/literature/ecgknown_any.txt 
+      --anumAddPvalLine 1e-6;5e-8 
+      --numAnnotPosLim 500000 
+      --numAnnotPvalLim 1e-6 
+      --strPlotName man_pr_seg_1e6ann 
+      --numPvalOffset 0.05 
+      --blnYAxisBreak 1

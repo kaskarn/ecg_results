@@ -10,3 +10,4 @@ annolist <- list(multicolor=1, any=2, PR=3, QRS=4, QT=5, RR=6)
 foundlist <- list("multicolor"=1, "any (min P)"=2, "P-Wave"=3, "PR-Segment"= 4, 
                   "QRS Interval"=5, "ST-Segment"=6, "T-Wave"=7, "TP-Segment"=8)
 foundnamlist <- c("multicolor", "any", traits)
+# aspu_t <- list(c("all", "All"), c("nost", "No ST"))

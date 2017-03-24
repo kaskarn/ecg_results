@@ -26,10 +26,22 @@ shinyServer(function(input, output) {
     tags$img(src = path, width = "100%")
   })
   output[["graphout_aspu_found"]] <- renderUI({
-    anno <- c("multicolor", "minP", traits)[as.numeric(input$annofound)]
+    anno <- c("multicolor", "minp", traits)[as.numeric(input$annofound)]
     sig <- ifelse(input[["sugg_found"]],"1e6","5e8")
     path <- paste0("./graphs/aspu/all/easystrata/annofound",anno,"_aspu.man_alltraits_",sig,"ann.png")
+    tags$img(src = path, width = "100%")             
+  })
+  output[["graphout_aspu_known_nost"]] <- renderUI({
+    anno <- names(annolist)[as.numeric(input[["anno_aspu_nost"]])]
+    sig <- ifelse(input[["sugg_aspu_nost"]],"1e6","5e8")
+    path <- paste0("./graphs/aspu/nost/easystrata/annoknown",anno,"_aspu.man_alltraits_",sig,"ann.png")
     tags$img(src = path, width = "100%")
-                                                     
+  })
+  output[["graphout_aspu_found_nost"]] <- renderUI({
+    anno <- c("multicolor", "minp", traits)[as.numeric(input$annofound_nost)]
+    sig <- ifelse(input[["sugg_found_nost"]],"1e6","5e8")
+    path <- paste0("./graphs/aspu/nost/easystrata/annofound",anno,"_aspu.man_alltraits_",sig,"ann.png")
+    tags$img(src = path, width = "100%")
+    
   })
 })

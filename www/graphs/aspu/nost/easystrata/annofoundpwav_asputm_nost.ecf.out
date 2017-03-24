@@ -1,0 +1,83 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|       EasyStrata     |   v15.3   |     02/November/2016    |
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|  (C) 2013 Thomas Winkler, GNU General Public License, v3   |
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+|  For bug-report, please e-mail:                            |
+|  thomas.winkler@klinik.uni-regensburg.de                   |
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++++
+Starting EasyStrata: 2017-03-22 05:04:47 
+Running script  annofoundpwav_asputm_nost.ecf ...
+
++++++
+Getting list of input files ...
+Using:
+   +  /nas02/depts/epi/CVDGeneNas/antoine/ECG_GWAS_FULL/aspu/aspu_nost/aspu_res_merge.txt 
+
++++++
+Default output path is 
+/proj/epi/CVDGeneNas/antoine/ECG_GWAS_FULL/graphs/aspu/nost/easystrata
+
++++++
+Performing validity check on 10 rows from each file :
+
+   +  annofoundpwav_aspu -> OK
+ Passed validity check!
+
++++++
+Processing file: annofoundpwav_aspu 
+   + Reading  /nas02/depts/epi/CVDGeneNas/antoine/ECG_GWAS_FULL/aspu/aspu_nost/aspu_res_merge.txt ... 
+Read 0.0% of 26695288 rowsRead 1.0% of 26695288 rowsRead 1.6% of 26695288 rowsRead 2.3% of 26695288 rowsRead 3.2% of 26695288 rowsRead 4.1% of 26695288 rowsRead 4.3% of 26695288 rowsRead 5.4% of 26695288 rowsRead 5.4% of 26695288 rowsRead 6.5% of 26695288 rowsRead 6.9% of 26695288 rowsRead 7.7% of 26695288 rowsRead 8.7% of 26695288 rowsRead 9.7% of 26695288 rowsRead 10.8% of 26695288 rowsRead 10.8% of 26695288 rowsRead 11.9% of 26695288 rowsRead 12.9% of 26695288 rowsRead 13.4% of 26695288 rowsRead 14.4% of 26695288 rowsRead 15.0% of 26695288 rowsRead 16.0% of 26695288 rowsRead 16.4% of 26695288 rowsRead 17.4% of 26695288 rowsRead 18.5% of 26695288 rowsRead 19.5% of 26695288 rowsRead 20.1% of 26695288 rowsRead 21.1% of 26695288 rowsRead 22.1% of 26695288 rowsRead 23.2% of 26695288 rowsRead 24.2% of 26695288 rowsRead 24.5% of 26695288 rowsRead 25.5% of 26695288 rowsRead 26.6% of 26695288 rowsRead 27.6% of 26695288 rowsRead 28.5% of 26695288 rowsRead 29.5% of 26695288 rowsRead 29.8% of 26695288 rowsRead 30.8% of 26695288 rowsRead 31.7% of 26695288 rowsRead 32.1% of 26695288 rowsRead 33.2% of 26695288 rowsRead 34.3% of 26695288 rowsRead 35.4% of 26695288 rowsRead 36.1% of 26695288 rowsRead 37.2% of 26695288 rowsRead 38.3% of 26695288 rowsRead 39.4% of 26695288 rowsRead 40.5% of 26695288 rowsRead 41.6% of 26695288 rowsRead 42.6% of 26695288 rowsRead 43.7% of 26695288 rowsRead 43.8% of 26695288 rowsRead 44.8% of 26695288 rowsRead 45.9% of 26695288 rowsRead 46.9% of 26695288 rowsRead 48.0% of 26695288 rowsRead 49.0% of 26695288 rowsRead 50.1% of 26695288 rowsRead 51.1% of 26695288 rowsRead 52.2% of 26695288 rowsRead 52.9% of 26695288 rowsRead 53.9% of 26695288 rowsRead 55.0% of 26695288 rowsRead 56.0% of 26695288 rowsRead 57.1% of 26695288 rowsRead 58.1% of 26695288 rowsRead 59.1% of 26695288 rowsRead 60.2% of 26695288 rowsRead 61.2% of 26695288 rowsRead 61.4% of 26695288 rowsRead 62.5% of 26695288 rowsRead 63.5% of 26695288 rowsRead 63.9% of 26695288 rowsRead 65.0% of 26695288 rowsRead 66.0% of 26695288 rowsRead 67.1% of 26695288 rowsRead 68.1% of 26695288 rowsRead 69.2% of 26695288 rowsRead 70.2% of 26695288 rowsRead 71.2% of 26695288 rowsRead 72.3% of 26695288 rowsRead 73.3% of 26695288 rowsRead 74.4% of 26695288 rowsRead 75.4% of 26695288 rowsRead 76.5% of 26695288 rowsRead 77.0% of 26695288 rowsRead 78.1% of 26695288 rowsRead 79.1% of 26695288 rowsRead 80.2% of 26695288 rowsRead 81.2% of 26695288 rowsRead 82.2% of 26695288 rowsRead 83.2% of 26695288 rowsRead 84.3% of 26695288 rowsRead 85.3% of 26695288 rowsRead 86.4% of 26695288 rowsRead 87.4% of 26695288 rowsRead 88.4% of 26695288 rowsRead 89.5% of 26695288 rowsRead 90.5% of 26695288 rowsRead 91.5% of 26695288 rowsRead 92.5% of 26695288 rowsRead 92.8% of 26695288 rowsRead 93.8% of 26695288 rowsRead 94.8% of 26695288 rowsRead 95.9% of 26695288 rowsRead 96.9% of 26695288 rowsRead 97.9% of 26695288 rowsRead 98.9% of 26695288 rowsRead 99.9% of 26695288 rowsRead 26695288 rows and 23 (of 23) columns from 3.915 GB file in 00:02:59
+	** Data reading time: 3.02 Minutes
+	** Current memory allocated: 7081m 
+   + MHPLOT 
+      --colInChr CHR 
+      --colInPos POS 
+      --colMHPlot aspu_p 
+      --fileAnnot /nas02/depts/epi/CVDGeneNas/antoine/ECG_GWAS_FULL/literature/ecgfound_pwav.txt 
+      --anumAddPvalLine 1e-6;5e-8 
+      --numAnnotPosLim 500000 
+      --numAnnotPvalLim 1e-6 
+      --strPlotName man_nost_1e6ann 
+      --numPvalOffset 0.05 
+      --blnYAxisBreak 1
+	** Function evaluation time: 3.87 Minutes
+	** Current memory allocated: 8636m 
+   + MHPLOT 
+      --colInChr CHR 
+      --colInPos POS 
+      --colMHPlot aspu_p 
+      --fileAnnot /nas02/depts/epi/CVDGeneNas/antoine/ECG_GWAS_FULL/literature/ecgfound_pwav.txt 
+      --anumAddPvalLine 1e-6;5e-8 
+      --numAnnotPosLim 500000 
+      --numAnnotPvalLim 5e-8 
+      --strPlotName man_nost_5e8ann 
+      --numPvalOffset 0.05 
+      --blnYAxisBreak 1
+	** Function evaluation time: 3.94 Minutes
+	** Current memory allocated: 8048m 
+   + MHPLOT 
+      --colInChr CHR 
+      --colInPos POS 
+      --colMHPlot aspu_p 
+      --fileAnnot /nas02/depts/epi/CVDGeneNas/antoine/ECG_GWAS_FULL/literature/ecgfound_pwav.txt 
+      --anumAddPvalLine 1e-6;5e-8 
+      --numAnnotPosLim 500000 
+      --numAnnotPvalLim 5e-8 
+      --numHeight 400 
+      --strPlotName man_nost_tiny_1e8ann 
+      --numPvalOffset 0.05 
+      --blnYAxisBreak 1
+	** Function evaluation time: 3.95 Minutes
+	** Current memory allocated: 8048m 
+** File processing time: 14.85 Minutes
+
+
++++++
+Succesfully finished EasyX: 2017-03-22 05:19:38 
+Elapsed time: 14.86 Minutes 
+Maximum memory allocated: 8636m 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
